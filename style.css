@@ -1,19 +1,53 @@
-.text-shein{
-    display: flex;
-    flex-grow: 0.3;
-    position: absolute;
-    top: 50%;
-    right: 0;
+
+.button{
+    border: none;
+    padding: 1rem 1.5rem;
+    background-color: rgb(79, 33, 122);
+    cursor:pointer;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: medium;
 }
 
-.discount{
-    border: 1px solid black;
-    writing-mode: vertical-lr;
-    padding: 1.5rem 1rem;
-    color: aliceblue;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    rotate: 180deg;
-   
+.menu{
+    list-style: none;
+    border: 1px solid rgb(67, 67, 6);
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+
+.rec-and-trin{
+    display: none;
+}
+
+.button:hover + .rec-and-trin{
+    display: block;
+    
+}
+
+
+
+.triangle {
+    position: absolute;
+    left: 6rem;
+    border-left: 10px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 19px solid rgb(188, 185, 185);
+}
+
+.rectangle {
+    width: 11rem;
+    background-color: rgb(188, 185, 185);;
+    position: absolute;
+    top: 4.8rem;
 }
