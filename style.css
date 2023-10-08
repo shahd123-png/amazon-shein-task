@@ -1,0 +1,19 @@
+.text-shein{
+    display: flex;
+    flex-grow: 0.3;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.discount{
+    border: 1px solid black;
+    writing-mode: vertical-lr;
+    padding: 1.5rem 1rem;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    rotate: 180deg;
+   
+}
